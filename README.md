@@ -138,14 +138,10 @@ Download the Pretrained Weights
 (https://drive.google.com/file/d/1fVBLZtPy9Yu6Tf186oS4siotkioHBLHy/view?usp=sharing)
 
 ## Resume Points 
-1. Engineered an end-to-end Basketball Intelligence System for automated video analytics, integrating player/ball detection, multi-object tracking, team classification, ball-possession estimation, and event recognition into a unified computer-vision pipeline.
-2. Developed player and ball tracking with persistent identities and team assignment, enabling frame-level trajectory analysis and downstream player/team statistics from basketball game footage.
-3. Built tactical court mapping using court-keypoint detection and perspective transformation to project broadcast-video player locations into top-down court coordinates for spatial and tactical analysis.
-4. Implemented player movement analytics to estimate distance travelled and speed from tracked trajectories, generating player-level workload and movement insights alongside annotated video output.
-5. Designed possession, pass, and interception analytics by combining ball-player association, temporal tracking, and event-detection logic to generate team-level ball-control and event statistics.
-6. Built an evaluation framework around detection mAP, tracking IDF1/HOTA, team-classification accuracy, court-coordinate error, speed MAE, possession F1, and pass/interception precision-recall-F1 for quantitative validation of the sports-analytics pipeline.
-7. Achieved >=95% mAP@50 for player detection, >=85% IDF1 / 75>= % HOTA for tracking, >=95% team-classification accuracy, <1m court-coordinate MAE, and >=90% F1 for possession/pass/interception detection on held-out basketball footage.
-
+1. Engineered an end-to-end Basketball Intelligence System for automated game-video analytics, integrating player/ball detection, multi-object tracking, team classification, possession estimation, and event recognition, solving the challenge of coordinating multiple interdependent CV tasks into a unified pipeline, targeting ≥95% player-detection mAP@50 and 80–90% ball-detection mAP@50.
+2. Developed persistent player/ball tracking and team assignment, using multi-object tracking, trajectory association, and team-classification models, addressing identity switches and team attribution across broadcast frames, targeting ≥85% IDF1, ≥75% HOTA, and ≥95% team-classification accuracy.
+3. Built a tactical and player-movement analytics system, using court-keypoint detection, homography-based perspective transformation, and tracked trajectories to estimate top-down positions, distance travelled, and speed, solving perspective-induced spatial measurement errors, targeting <1 m position MAE and <1–2 km/h speed MAE.
+4. Designed automated possession, pass, and interception detection, combining ball-player association, temporal tracking, team identity, and event-detection logic, addressing ambiguous interactions during rapid gameplay, targeting ≥90% possession F1, ≥85%/80%/82% precision-recall-F1 for passes, and ≥80%/75%/77% precision-recall-F1 for interceptions.
 
 
 
