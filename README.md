@@ -84,7 +84,7 @@ https://github.com/user-attachments/assets/e4a0c2cc-0712-4ae2-8c5c-810d00696c6c
 
 ## 🏰 Project Structure
   main.py
-      * Orchestrates the entire pipeline: reading video frames, running detection/tracking, team assignment, drawing results, and saving the output video.
+     - Orchestrates the entire pipeline: reading video frames, running detection/tracking, team assignment, drawing results, and saving the output video.
 
   trackers/
     – Houses PlayerTracker and BallTracker, which use detection models to generate bounding boxes and track objects across frames.
@@ -109,6 +109,17 @@ https://github.com/user-attachments/assets/e4a0c2cc-0712-4ae2-8c5c-810d00696c6c
 
   configs/
     – Holds default paths for models, stubs, and output video.
+
+## 🎓 Train the Models File 
+Download the Pretrained Weights
+1. ball_detector_model.pt
+(https://drive.google.com/file/d/1KejdrcEnto2AKjdgdo1U1syr5gODp6EL/view?usp=sharing)
+
+2. court_keypoint_detector.pt
+(https://drive.google.com/file/d/1nGoG-pUkSg4bWAUIeQ8aN6n7O1fOkXU0/view?usp=sharing)
+
+3. player_detector.pt
+(https://drive.google.com/file/d/1fVBLZtPy9Yu6Tf186oS4siotkioHBLHy/view?usp=sharing)
 
 
 
