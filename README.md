@@ -72,7 +72,7 @@ The primary objectives are:
   15. Maintain frame-level consistency throughout the pipeline.
 
 ## 🏗️ End-to-End System Architecture
-<img src="<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/fe7cf3ed-4d9b-4d7f-a906-de85e0333fd2" />
+"<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/fe7cf3ed-4d9b-4d7f-a906-de85e0333fd2" />
 " alt="Project Screenshot" width="500">
 
 
