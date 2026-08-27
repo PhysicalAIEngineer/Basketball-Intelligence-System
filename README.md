@@ -37,20 +37,36 @@ A single broadcast video contains information about:
   9. How teams occupy the court
   10. How player positions evolve over time
 
-The purpose of this project is to extract those signals using computer vision automatically.
+## 🎯 Problem Statement
 
-The system takes:
+Traditional basketball analysis often requires:
+  1. Manual video review
+  2. Human tagging
+  3. Expensive tracking hardware
+  4. Specialized sports-analysis software
+  5. Significant analyst time
 
-  Raw Basketball Video
-          │
-          ▼
-  Computer Vision Pipeline
-          │
-          ▼
-  Player / Ball / Court Understanding
-          │
-          ▼
-  Basketball Intelligence
-          │
-          ▼
-  Annotated Video + Tactical Visualization
+This project explores how much of this process can be automated using standard video footage and computer vision.
+
+The central problem is:
+
+How can basketball video be transformed into structured player, team, movement, possession, and event analytics without requiring dedicated tracking hardware?
+
+## 🎯 Objectives
+
+The primary objectives are:
+  1. Detect basketball players.
+  2. Track players across frames.
+  3. Detect and track the basketball.
+  4. Detect court landmarks.
+  5. Assign players to teams.
+  6. Determine ball possession.
+  7. Detect passes.
+  8. Detect interceptions.
+  9. Transform broadcast coordinates into tactical court coordinates.
+  10. Estimate player speed.
+  11. Estimate player distance traveled.
+  12. Visualize player trajectories.
+  13. Generate a tactical court view.
+  14. Produce an annotated output video.
+  15. Maintain frame-level consistency throughout the pipeline.
