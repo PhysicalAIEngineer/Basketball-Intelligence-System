@@ -72,5 +72,7 @@ The primary objectives are:
   15. Maintain frame-level consistency throughout the pipeline.
 
 ## 🏗️ End-to-End System Architecture
-https://chatgpt.com/backend-api/estuary/content?id=file_0000000096548211861ac759e72d05dd&ts=496612&p=fs&cid=1&sig=58584594aebedde1e8689f1e7ac7943ed2224b16a2f23a529dd7a9a5b3050c37&v=0
+<img src="<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/fe7cf3ed-4d9b-4d7f-a906-de85e0333fd2" />
+" alt="Project Screenshot" width="500">
+
 
