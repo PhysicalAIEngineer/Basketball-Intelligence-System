@@ -82,7 +82,14 @@ https://github.com/user-attachments/assets/e4a0c2cc-0712-4ae2-8c5c-810d00696c6c
 # 🖼️ Analytical and Statistical Report Video 
 
 
-https://github.com/user-attachments/assets/5e6ada1e-39e0-43a1-82a1-82bc6e40bd9d
+
+https://github.com/user-attachments/assets/32d44c44-84a1-42de-aecf-e0e13d81c0cb
+
+
+
+
+
+
 
 
 
