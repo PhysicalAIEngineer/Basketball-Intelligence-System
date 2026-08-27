@@ -1,4 +1,4 @@
-🏀 Basketball Intelligence System
+# Basketball Intelligence System
 
 End-to-End Computer Vision System for Basketball Video Analytics
 
