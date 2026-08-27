@@ -79,6 +79,23 @@ The primary objectives are:
 
 https://github.com/user-attachments/assets/e4a0c2cc-0712-4ae2-8c5c-810d00696c6c
 
+## 📈 Evaluation Metrics
+Component	Metric	Target
+Player Detection	mAP@50	≥ 95%
+Ball Detection	mAP@50	≥ 80–90%
+Tracking	IDF1	≥ 85%
+Tracking	HOTA	≥ 75%
+Team Classification	Accuracy	≥ 95%
+Court Mapping	Position MAE	< 1 m
+Speed	MAE	< 1–2 km/h
+Possession	F1	≥ 90%
+Pass Detection	Precision	≥ 85%
+Pass Detection	Recall	≥ 80%
+Pass Detection	F1	≥ 82%
+Interception	Precision	≥ 80%
+Interception	Recall	≥ 75%
+Interception	F1	≥ 77%
+
 
 
 
