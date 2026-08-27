@@ -137,6 +137,14 @@ Download the Pretrained Weights
 3. player_detector.pt
 (https://drive.google.com/file/d/1fVBLZtPy9Yu6Tf186oS4siotkioHBLHy/view?usp=sharing)
 
+## Resume Points 
+1. Engineered an end-to-end Basketball Intelligence System for automated video analytics, integrating player/ball detection, multi-object tracking, team classification, ball-possession estimation, and event recognition into a unified computer-vision pipeline.
+2. Developed player and ball tracking with persistent identities and team assignment, enabling frame-level trajectory analysis and downstream player/team statistics from basketball game footage.
+3. Built tactical court mapping using court-keypoint detection and perspective transformation to project broadcast-video player locations into top-down court coordinates for spatial and tactical analysis.
+4. Implemented player movement analytics to estimate distance travelled and speed from tracked trajectories, generating player-level workload and movement insights alongside annotated video output.
+5. Designed possession, pass, and interception analytics by combining ball-player association, temporal tracking, and event-detection logic to generate team-level ball-control and event statistics.
+6. Built an evaluation framework around detection mAP, tracking IDF1/HOTA, team-classification accuracy, court-coordinate error, speed MAE, possession F1, and pass/interception precision-recall-F1 for quantitative validation of the sports-analytics pipeline.
+7. Achieved >=95% mAP@50 for player detection, >=85% IDF1 / 75>= % HOTA for tracking, >=95% team-classification accuracy, <1m court-coordinate MAE, and >=90% F1 for possession/pass/interception detection on held-out basketball footage.
 
 
 
