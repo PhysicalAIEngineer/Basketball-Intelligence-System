@@ -79,6 +79,15 @@ The primary objectives are:
 
 https://github.com/user-attachments/assets/e4a0c2cc-0712-4ae2-8c5c-810d00696c6c
 
+# 🖼️ Analytical and Statistical Report Video 
+
+
+https://github.com/user-attachments/assets/5e6ada1e-39e0-43a1-82a1-82bc6e40bd9d
+
+
+
+
+
 ## 📈 Evaluation Metrics
   <img width="638" height="660" alt="image" src="https://github.com/user-attachments/assets/87446890-8b6a-4610-a9cc-76b3cbc7085a" />
 
