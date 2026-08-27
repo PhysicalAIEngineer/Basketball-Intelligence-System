@@ -84,7 +84,7 @@ https://github.com/user-attachments/assets/e4a0c2cc-0712-4ae2-8c5c-810d00696c6c
 
 ## 🏰 Project Structure
   main.py
-    – Orchestrates the entire pipeline: reading video frames, running detection/tracking, team assignment, drawing results, and saving the output video.
+      * Orchestrates the entire pipeline: reading video frames, running detection/tracking, team assignment, drawing results, and saving the output video.
 
   trackers/
     – Houses PlayerTracker and BallTracker, which use detection models to generate bounding boxes and track objects across frames.
