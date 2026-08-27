@@ -41,16 +41,16 @@ The purpose of this project is to extract those signals using computer vision au
 
 The system takes:
 
-Raw Basketball Video
-        │
-        ▼
-Computer Vision Pipeline
-        │
-        ▼
-Player / Ball / Court Understanding
-        │
-        ▼
-Basketball Intelligence
-        │
-        ▼
-Annotated Video + Tactical Visualization
+  Raw Basketball Video
+          │
+          ▼
+  Computer Vision Pipeline
+          │
+          ▼
+  Player / Ball / Court Understanding
+          │
+          ▼
+  Basketball Intelligence
+          │
+          ▼
+  Annotated Video + Tactical Visualization
