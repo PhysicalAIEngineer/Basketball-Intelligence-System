@@ -70,3 +70,7 @@ The primary objectives are:
   13. Generate a tactical court view.
   14. Produce an annotated output video.
   15. Maintain frame-level consistency throughout the pipeline.
+
+## 🏗️ End-to-End System Architecture
+https://chatgpt.com/backend-api/estuary/content?id=file_0000000096548211861ac759e72d05dd&ts=496612&p=fs&cid=1&sig=58584594aebedde1e8689f1e7ac7943ed2224b16a2f23a529dd7a9a5b3050c37&v=0
+
