@@ -1,0 +1,2 @@
+# Imports the SpeedAndDistanceCalculator class from the 'speed_and_distance_calculator.py'
+from .speed_and_distance_calculator import SpeedAndDistanceCalculator

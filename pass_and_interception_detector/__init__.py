@@ -1,0 +1,2 @@
+# Imports the PassAndInterceptionDetector class from the 'pass_and_interception_detector.py'
+from .pass_and_interception_detector import PassAndInterceptionDetector

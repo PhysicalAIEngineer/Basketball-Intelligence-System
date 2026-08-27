@@ -1,0 +1,103 @@
+# -----------------------------------
+# Core Scientific Stack : Header for baseline linear algebra, scientific computing, data manipulation, and plotting libraries.
+# --------------------------------------
+# NumPy pin: Provides N-dimensional array processing and high-performance vector operations.
+numpy==1.26.4
+# SciPy pin: Offers algorithms for scientific computing, matrix operations, signal processing, and optimization.
+scipy==1.13.1
+# Pandas pin: Data analysis library supplying DataFrame structures for tabular analytics data.
+pandas==2.2.2
+# Matplotlib pin: Data visualization library for plotting figures, graphs, and performance charts.
+matplotlib==3.9.2
+
+# -------------------------------------------------------
+# Computer Vision : Header for raw image decoding, drawing, and open source computer vision processing packages.
+# --------------------------------------------------------
+# OpenCV standard distribution: Used for video stream decoding/encoding, frame manipulation, and array operations.
+opencv-python==4.10.0.84
+# OpenCV extra modules distribution: Provides extended algorithms like advanced feature detectors and optical flow.
+opencv-contrib-python==4.10.0.84
+
+# -----------------------------------------------------------
+# Deep Learning : Header for PyTorch core runtime framework and multimodal neural network extensions.
+# ------------------------------------------------------------
+# PyTorch core engine: Provides GPU/CPU tensor computations and deep neural network training/inference.
+torch==2.2.2
+# Torchvision pin: Computer vision datasets, transformations, and pretrained network architectures for PyTorch.
+torchvision==0.17.2
+# Torchaudio pin: Audio signal processing functions and neural network layers for PyTorch.
+torchaudio==2.2.2
+
+# ------------------------------------------------------
+# YOLO : Header for Ultralytics vision engine.
+# ------------------------------------------------
+# Ultralytics package: Provides pre-trained YOLO object detection, keypoint pose estimation, and segmentation models.
+ultralytics==8.3.67
+
+# ---------------------------------------------------------
+# HuggingFace : Header for HuggingFace transformer infrastructure, state execution, and tokenization tools.
+# ---------------------------------------------------------
+# Transformers library: Core model zoo providing pre-trained transformer models for vision and text tasks.
+transformers==4.46.3
+# Accelerate library: Simplifies multi-GPU execution, mixed-precision training, and distributed model loading.
+accelerate==1.2.1
+# Safetensors pin: Fast and secure binary tensor storage format for saving and loading model weights.
+safetensors==0.4.5
+# Tokenizers pin: Fast text tokenization engine optimized for transformer architecture preprocessing.
+tokenizers==0.20.3
+
+# --------------------------------------------------------------
+# Zero-shot Classification : Header for PyTorch Image Models library.
+# ---------------------------------------------------------------
+# PyTorch Image Models (timm): Collection of deep learning vision architectures and feature extractor backbones.
+timm==1.0.12
+
+# ------------------------------------------------------------
+# Tracking : Header for computer vision object tracking algorithms, Kalman filters, and annotation tools.
+# --------------------------------------------------------------
+# Supervision library: Computer vision toolkit for keypoint/bounding box visualization, metrics, and tracking filters.
+supervision==0.25.1
+# LAPX pin: Linear Assignment Problem solver optimized for deep-SORT and ByteTrack object tracking matching.
+lapx==0.5.11
+# FilterPy pin: Provides Kalman filtering and Bayesian state estimation routines for object state prediction.
+filterpy==1.4.5
+
+# ------------------------------------------------------------
+# Dataset : Header for dataset access and annotation platforms.
+# -----------------------------------------------------------
+# Roboflow SDK: Manages downloading, uploading, and preprocessing computer vision datasets directly from Roboflow API.
+roboflow==1.1.51
+
+# --------------------------------------------------------------
+# Image Processing : Header for image file manipulation tools.
+# --------------------------------------------------------------
+# Pillow (PIL) pin: Python Imaging Library for reading, cropping, saving, and color-converting image formats.
+Pillow==11.1.0
+
+# ---------------------------------------------------------------
+# Utilities : Header for environment configuration parsing, progress bars, HTTP requests, and system monitoring.
+# --------------------------------------------------------------
+# PyYAML pin: YAML parser used for reading configuration files, model parameters, and dataset metadata
+PyYAML==6.0.2
+# tqdm pin: Generates interactive terminal progress bars for loops, frame processing, and downloads.
+tqdm==4.67.1
+# # Requests pin: Standard HTTP request library used for network calls and API file downloads.
+requests==2.32.3
+# psutil pin: System utility library for monitoring CPU/RAM usage and hardware process management.
+psutil==6.1.0
+# Scikit-image pin: Image processing algorithms for filtering, edge detection, and morphological transformations.
+scikit-image==0.24.0
+# Scikit-learn pin: Machine learning library used for clustering algorithms (e.g., player uniform color assignment), PCA, and classification.
+scikit-learn==1.5.2
+# Albumentations pin: Fast image augmentation library designed to transform images and bounding boxes during training.
+albumentations==1.4.21
+# ONNX core: Open Neural Network Exchange standard format for serializing deep learning models across frameworks.
+onnx==1.17.0
+# ONNX Runtime with GPU support: High-performance inference engine for running ONNX models accelerated by CUDA/TensorRT.
+onnxruntime-gpu==1.19.2
+# TensorBoard pin: Visualization toolkit for logging loss curves, tracking model performance, and inspecting training runs.
+tensorboard==2.18.0
+# Pycocotools pin: Evaluation suite for calculating COCO object detection and keypoint mAP metrics.
+pycocotools==2.0.8
+# Shapely pin: Geometric manipulation library used for computing polygon intersections, court boundary masks, and spatial checks.
+shapely==2.0.6

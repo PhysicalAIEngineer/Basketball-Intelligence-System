@@ -1,0 +1,58 @@
+# Imports the helper function 'draw_traingle' from the local 'utils' module.
+from .utils import draw_traingle
+
+class BallTracksDrawer:
+    """
+    A drawer class responsible for drawing ball tracks on video frames.
+    Attributes:
+        ball_pointer_color (tuple): The color used to draw the ball pointers (in BGR format).
+    """
+
+    def __init__(self):
+        """
+        Initialize the BallTracksDrawer instance with default settings.
+        """
+
+        # Sets default BGR color for ball pointer triangle indicator (green: (0, 255, 0)).
+        self.ball_pointer_color = (0, 255, 0)
+
+    def draw(self, video_frames, tracks):
+        """
+        Draws ball pointers on each video frame based on provided tracking information.
+
+        Args:
+            video_frames (list): A list of video frames (as NumPy arrays or image objects).
+            tracks (list): A list of dictionaries where each dictionary contains ball information
+                for the corresponding frame.
+
+        Returns:
+            list: A list of processed video frames with drawn ball pointers.
+        """
+
+        # List to store annotated video frames containing rendered ball pointers.
+        output_video_frames = []
+
+        # Iterates through video frames frame-by-frame while keeping track of the frame index (`frame_num`).
+        for frame_num, frame in enumerate(video_frames):
+
+            # Creates a duplicate copy of the current frame to avoid mutating the original image array.
+            frame = frame.copy()
+
+            # Extracts dictionary of ball detections and bounding box data for the current frame index.
+            ball_dict = tracks[frame_num]
+
+            # Iterates over ball tracking entries in the current frame dictionary.
+            for _, ball in ball_dict.items():
+
+                # Skips rendering if no bounding box coordinates exist for the ball in this frame.
+                if ball["bbox"] is None:
+                    continue
+
+                # Draws green pointer triangle above ball bounding box using imported 'draw_traingle' function.
+                frame = draw_traingle(frame, ball["bbox"], self.ball_pointer_color)
+
+            # Appends processed frame featuring drawn ball pointer to output list.
+            output_video_frames.append(frame)
+
+        # Returns list of video frames populated with ball pointer triangle overlays.
+        return output_video_frames
