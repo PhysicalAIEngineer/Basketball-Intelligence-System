@@ -74,4 +74,11 @@ The primary objectives are:
 ## 🏗️ End-to-End System Architecture
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/fe7cf3ed-4d9b-4d7f-a906-de85e0333fd2" />
 
+## 📊 Visual Output
+
+
+https://github.com/user-attachments/assets/e4a0c2cc-0712-4ae2-8c5c-810d00696c6c
+
+
+
 
